@@ -1,4 +1,4 @@
-# Overview of our team's Final Project:
+# Overview of Final Project:
 
 ## **Segment 1**:
 
