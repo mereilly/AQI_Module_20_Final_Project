@@ -1,7 +1,8 @@
-##Overview of our team's Final Project:
-#Segment 1:
+#Overview of our team's Final Project:
+
+##Segment 1:
 #Team: 
-Bernardo Penaherrera, Michelle Reilly, Elodie Slawinski
+Michelle Reilly and Elodie Slawinski
 
 #Topic: analyzing Washington, DC Air Quality Index (AQI) from the McMillan Reservoir to understand the link between AQI and weather, and see which air pollutent has the most impact on the weather
 
