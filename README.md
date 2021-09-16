@@ -2,7 +2,7 @@
 
 ## **Segment 1**:
 
-### **Team**: Bernardo Penaherrera, Elodie Slawinski, Michelle Reilly
+### **Team**: Elodie Slawinski and Michelle Reilly
 ### **Communication Protocol**: 
 We have agreed on almost daily google hangout video calls in addition to bi-weekly meetings for discussion on Zoom during regularly scheduled class. Our hope is that the need for daily meetings lessens as we become more comfortables in our roles and this topic. We have held all other communication outside of those sessions on slack, using a group slack from just the team and one with a TA included for questions during the Zoom sessions. 
 
