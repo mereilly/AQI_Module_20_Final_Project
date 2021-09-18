@@ -2,9 +2,9 @@
 
 ## **Segment 1**:
 
-### **Team**: Bernardo Penaherrera, Michelle Reilly, Elodie Slawinski
+### **Team**: Michelle Reilly and Elodie Slawinski
 
-### **Topic**: analyzing Washington, DC Air Quality Index (AQI) from the McMillan Reservoir to understand the link between AQI and weather, and see which air pollutent has the most impact on the weather
+### **Topic**: looking for a link between AQI and weather, and see which air pollutent has the most impact on the weather
 
 #### Background: EPA establishes an AQI for five major air pollutants regulated by the Clean Air Act. Each of these pollutants has a national air quality standard set by EPA to protect public health:
 
