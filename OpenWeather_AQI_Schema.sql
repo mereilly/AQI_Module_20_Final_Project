@@ -1,7 +1,8 @@
 -- Creating State & Lats/Longs table
 CREATE TABLE state_data_table (
+index INTEGER PRIMARY KEY,
 Date DATE,
-State TEXT PRIMARY KEY,
+State TEXT,
 Latitude INTEGER,
 Longitude INTEGER
 );
