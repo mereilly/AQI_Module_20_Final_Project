@@ -1,6 +1,6 @@
 # Overview of Final Project:
 
-## **Segment 1**:
+## **Segment 1 and 2**:
 
 ### **Team**: Elodie Slawinski and Michelle Reilly
 ### **Communication Protocol**: 
@@ -42,3 +42,16 @@ There is no doubt that climate change and extreme weathers are of growing concer
 Using the data associated with these three locations for a year (between Novemeber 2020 and September 2021), we hope to look at trends over a year where quarantines originally limited movement and openings have eased that movement accross the ongoing COVid 19 pandemic. Where/When were there spikes of certain polutants? Is one polutant more impactful on the AQI score than others? We chose MA, DC, CA as preliminary data points to evaluate given the loaction of this class, current events with wildfires in California, and factory polution in Massachusettes 
 
 Data collection was described above under "Topic and Source of Data." Next, we will upload the extracted, cleaned and somewhat tranformed data into a database  in AWS RDS and create a link to pgAdmin. There, we will evaluate if the database needs to be further transformed, and then we will run this database through our Machine Learning model, starting with a Random Forest operator and then a regression model. 
+
+## **Technologies Used**:
+### Data Cleaning and Analysis:
+Pandas and Requests will be used to clean the data and perform an exploratory analysis from data gathered on APIs. Further analysis will be completed using Python.
+
+### Database Storage:
+AWS RDS is the database we intend to use managed through pgAdmin. Although we are also prepared to switch to a different format should colaboration prove to be difficult under this method.
+
+### Machine Learning:
+We will use the RandomForestClassifier from the sklearn ML library to create a supervised learning classifier. We will then use metrics from the sklearn to test the accuracy of of the classifier using test and predicted data samples from the split data base. We plan to visualize the initial results through the seaborn library. 
+
+### Dashboard:
+We hope to incorporate this information into a visualizations made on Tableau which we can export for a great presentation. The current draft of that presentation is uploaded here via powerpoint. We also generated an ERD from pgAdmin and  uploaded the graphic into the same power point. 
