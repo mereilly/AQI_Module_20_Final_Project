@@ -1,0 +1,1 @@
+FLASK_APP=aqi_polutants/app.py flask run
