@@ -1,0 +1,1 @@
+web: gunicorn aqi_polutants.app:app
