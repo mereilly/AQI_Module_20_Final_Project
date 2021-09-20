@@ -59,8 +59,14 @@ AWS RDS is the database we intend to use managed through pgAdmin. Although we ar
 We will use the RandomForestClassifier from the sklearn ML library to create a supervised learning classifier. We will then use metrics from the sklearn to test the accuracy of of the classifier using test and predicted data samples from the split data base. We plan to visualize the initial results through the seaborn and plotly library. 
 
 #### Description of how data was split into training and testing sets
+Using Skicit-learn to split data of just the features into training and testing sets, and then evaluating the shape of the two to see how the data was split. In the last run, the training data was split with 19920 rows, while the testing data was 6640 rows.
+
+We then applied a scaler to both given our data for pollutants was collected in different ranges and needed to be mmade more comparable to one another.
 
 #### Explanation of model choice, including limitations and benefits
+Our main model choice as noted elsewhere is a RandomForestClassifier,through which we then ran an impact importance evaluator, which results are visable through a plotly graph. We only had 5 values to classify between, and we wanted to take advantage of the bagging technique in the model.
+
+With larger training and  testing sets, this model could require much more time for training, as it complies various decision trees to determine the class. So while this model is ideal in helping improve accuracy for the classifying to the output of 5 bin options (1-5 AQI values), and reduces overfitting, it is possile to be less efficient. We must also consider, it may be limited in auto-determining the significance of each variable, which is why we ran follow up impact evaluaton.
 
 ### Dashboard:
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. The current draft of that presentation is uploaded here via powerpoint. We also generated an ERD from pgAdmin and  uploaded the graphic into the same power point. 
