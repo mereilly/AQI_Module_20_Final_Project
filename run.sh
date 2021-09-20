@@ -1,1 +1,1 @@
-FLASK_APP=aqi_polutants/app.py flask run
+FLASK_APP=aqi-polutants/app.py flask run
