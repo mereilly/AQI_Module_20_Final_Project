@@ -53,10 +53,14 @@ After settling on a topic we found interesting and relevant, we tried to google 
 Pandas and Requests will be used to clean the data and perform an exploratory analysis from data gathered on APIs. Further analysis will be completed using Python.
 
 ### Database Storage:
-AWS RDS is the database we intend to use managed through pgAdmin. Although we are also prepared to switch to a different format should colaboration prove to be difficult under this method.
+AWS RDS is the database we intend to use managed through pgAdmin. Although we are also prepared to switch to a different format should colaboration prove to be difficult under this method. We currently have four total tables in our pgAdmin, that start empty with the correct heard names ready to be populated by imported data/a connection. Queries in the OpenWeather_DataBase fi;e and the ML_model file will access information from the database directly into the python script. 
 
 ### Machine Learning:
 We will use the RandomForestClassifier from the sklearn ML library to create a supervised learning classifier. We will then use metrics from the sklearn to test the accuracy of of the classifier using test and predicted data samples from the split data base. We plan to visualize the initial results through the seaborn and plotly library. 
+
+#### Description of how data was split into training and testing sets
+
+#### Explanation of model choice, including limitations and benefits
 
 ### Dashboard:
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. The current draft of that presentation is uploaded here via powerpoint. We also generated an ERD from pgAdmin and  uploaded the graphic into the same power point. 
