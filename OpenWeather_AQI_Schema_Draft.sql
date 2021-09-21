@@ -1,4 +1,5 @@
 -- Creating State & Lats/Longs table
+CREATE SCHEMA state_data_table_schema
 CREATE TABLE state_data_table (
 index INTEGER PRIMARY KEY,
 Date DATE,
@@ -8,14 +9,18 @@ Longitude INTEGER
 );
 
 -- Creating AQI table
+CREATE SCHEMA aqi_data_table_schema
 CREATE TABLE aqi_data_table (
+index INTEGER PRIMARY KEY,
 Date DATE,
 State TEXT PRIMARY KEY,
 AQI INTEGER
 );
 
--- Creating pollutents table
-CREATE TABLE pollutents_data_table (
+-- Creating pollutants table
+CREATE SCHEMA pollutants_data_table_schema
+CREATE TABLE pollutants_data_table (
+index INTEGER PRIMARY KEY,
 Date DATE,
 State TEXT PRIMARY KEY,
 CO INTEGER,
