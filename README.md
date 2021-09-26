@@ -1,15 +1,17 @@
 # Overview of Final Project:
 
-## **Segment 1 and 2**:
+## **Segments 1-3:
 
 ### **Team**: Elodie Slawinski and Michelle Reilly
 ### **Communication Protocol**: 
-We have agreed on almost daily google hangout video calls in addition to bi-weekly meetings for discussion on Zoom during regularly scheduled class. Our hope is that the need for daily meetings lessens as we become more comfortables in our roles and this topic. We have held all other communication outside of those sessions on slack, using a group slack from just the team and one with a TA included for questions during the Zoom sessions. 
+We have agreed on almost daily google hangout video calls in addition to bi-weekly meetings for discussion on Zoom during regularly scheduled class. 
+We have held all other communication outside of those sessions on slack, using a group slack from just the team and one with a TA included for questions during the Zoom sessions. 
 
 ### **Topic** and **Source of Data**: 
-Looking at the polutants meassured when calculating the Air Quality Index (AQI), using data from the OpenWather Air Polution API to understand the link between AQI and various air contamenants, and see which air pollutent has the most impact on the weather, so that efforts can be further tailored. We used Google Developers Public Data on coordinates designated as representative for each U.S. state to use as an inital dataframe of coordinates from which we could choose to run through an API call in the OpenWeather API, which houses data for LAT/LONGs accross the globe. 
+Looking at the pollutants meassured when calculating the Air Quality Index (AQI), using data from the OpenWather Air Pollution API to understand the link between AQI and various air contamenants, and see which air pollutent has the most impact on the weather, so that efforts can be further tailored. We used Google Developers Public Data on coordinates designated as representative for each U.S. state to use as an inital dataframe of coordinates from which we could choose to run through an API call in the OpenWeather API, which houses data for LAT/LONGs accross the globe. 
 
-### **Source of Data**: Data pulled using an API through OpenWeather to retrieve AQI and pollutant readings for close to one year at each location (OpenWeather historical Historical data is accessible from 27th November 2020)
+### **Source of Data**: Data pulled using an API through OpenWeather to retrieve AQI and pollutant readings for close to one year at each location (OpenWeather historical Historical data is accessible from 27th November 2020) 
+We created API requests for information for 4 LAT/LONG locations in the States based on personal information of different locations for our sample. We worked on data from 27 Novemeber 2020 to 11 September 2021 (i.e. up to the start data of our project).
 
 #### Background: 
 The U.S. Enviornmental Protection Agency establishes an AQI for five major air pollutants regulated by the Clean Air Act. Each of these pollutants has a national air quality standard set by EPA to protect public health. The OpenWeather Air Pollution API "provides current, forecast and historical air pollution data for any coordinates on the globe" (as stipulated on their website here: https://openweathermap.org/api/air-pollution#descr). 
@@ -38,10 +40,9 @@ OpenWeather's API considers elements beyond the basic Air Quality Index. Making 
 ### **Project Proposal**: 
 There is no doubt that climate change and extreme weathers are of growing concern. Still, with so many factors, and exogenous shocks to diverse data sets to consider, it is difficult to know where to focus remedying energies. Looking at air and the atmosphere exclusively, there is still a lot to consider. 
 
-Using the data associated with these three locations for a year (between Novemeber 2020 and September 2021), we hope to look at trends over a year where quarantines originally limited movement and openings have eased that movement accross the ongoing COVid 19 pandemic. Where/When were there spikes of certain polutants? Is one polutant more impactful on the AQI score than others? We chose MA, DC, CA, AK as sample criteria to derive data points to evaluate, given (1-DC) the loaction of this class, (2-CA) current events with wildfires in California, and (3-MA) assumed factory polution in Massachusettes, and (4-AK) Alaska as a presumed control. 
+Using the data associated with these three locations for a year (between Novemeber 2020 and September 2021), we hope to look at trends over a year where quarantines originally limited movement and openings have eased that movement accross the ongoing COVid 19 pandemic. Where/When were there spikes of certain pollutants? Is one pollutant more impactful on the AQI score than others? We chose MA, DC, CA, AK as sample criteria to derive data points to evaluate, given (1-DC) the loaction of this class, (2-CA) current events with wildfires in California, and (3-MA) assumed factory pollution in Massachusettes, and (4-AK) Alaska as a presumed control. 
 
 Data collection was described above under "Topic and Source of Data." Next, we will upload the extracted, cleaned and somewhat tranformed data into a database  in AWS RDS and create a link to pgAdmin. There, we will evaluate if the database needs to be further transformed, and then we will run this database through our Machine Learning model, starting with a Random Forest operator and then a regression model. 
-
 
 
 ## **Technologies Used**:
@@ -69,4 +70,5 @@ Our main model choice as noted elsewhere is a RandomForestClassifier,through whi
 With larger training and  testing sets, this model could require much more time for training, as it complies various decision trees to determine the class. So while this model is ideal in helping improve accuracy for the classifying to the output of 5 bin options (1-5 AQI values), and reduces overfitting, it is possile to be less efficient. We must also consider, it may be limited in auto-determining the significance of each variable, which is why we ran follow up impact evaluaton.
 
 ### Dashboard:
-We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. The current draft of that presentation is uploaded here via powerpoint. We also generated an ERD from pgAdmin and  uploaded the graphic into the same power point. 
+We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. 
+The presentation is uploaded here in a powerpoint format. We also generated an ERD from pgAdmin and uploaded the graphic into the same power point. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
