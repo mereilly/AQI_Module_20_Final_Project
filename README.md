@@ -72,3 +72,6 @@ With larger training and  testing sets, this model could require much more time 
 ### Dashboard:
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. 
 The presentation is uploaded here in a powerpoint format. We also generated an ERD from pgAdmin and uploaded the graphic into the same power point. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
+
+## Presentation Practices Were Not Recorded. Please Refer to Notes at the Bottom of Each Slide.(September 26 2021 Update for Segment 3)
+Final Presentation date set for 29 September 2021 between 7 - 9 pm EST.
