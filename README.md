@@ -8,7 +8,7 @@ We have agreed on almost daily google hangout video calls in addition to bi-week
 We have held all other communication outside of those sessions on slack, using a group slack from just the team and one with a TA included for questions during the Zoom sessions. 
 
 ### **Topic** and **Source of Data**: 
-Looking at the pollutants meassured when calculating the Air Quality Index (AQI), using data from the OpenWather Air Pollution API to understand the link between AQI and various air contamenants, and see which air pollutent has the most impact on the weather, so that efforts can be further tailored. We used Google Developers Public Data on coordinates designated as representative for each U.S. state to use as an inital dataframe of coordinates from which we could choose to run through an API call in the OpenWeather API, which houses data for LAT/LONGs accross the globe. 
+Looking at the pollutants meassured when calculating the Air Quality Index (AQI), using data from the OpenWather Air Pollution API to understand the link between AQI and various air contamenants, and see which air pollutant has the most impact on the weather, so that efforts can be further tailored. We used Google Developers Public Data on coordinates designated as representative for each U.S. state to use as an inital dataframe of coordinates from which we could choose to run through an API call in the OpenWeather API, which houses data for LAT/LONGs accross the globe. 
 
 ### **Source of Data**: Data pulled using an API through OpenWeather to retrieve AQI and pollutant readings for close to one year at each location (OpenWeather historical Historical data is accessible from 27th November 2020) 
 We created API requests for information for 4 LAT/LONG locations in the States based on personal information of different locations for our sample. We worked on data from 27 Novemeber 2020 to 11 September 2021 (i.e. up to the start data of our project).
@@ -72,6 +72,7 @@ With larger training and  testing sets, this model could require much more time 
 ### Dashboard:
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. 
 The presentation is uploaded here in a powerpoint format. We also generated an ERD from pgAdmin and uploaded the graphic into the same power point. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
+Tableau Story Link: https://public.tableau.com/app/profile/elo.sla/viz/Final_Project_AQI_Story/AQIStory?publish=yes 
 
 ## Presentation Practices Were Not Recorded. Please Refer to Notes at the Bottom of Each Slide.(September 26 2021 Update for Segment 3)
 Final Presentation date set for 29 September 2021 between 7 - 9 pm EST.
