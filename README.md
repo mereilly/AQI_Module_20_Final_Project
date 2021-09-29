@@ -1,6 +1,6 @@
 # Overview of Final Project:
 
-## **Segments 1-3:
+## **Segments 1-4:
 
 ### **Team**: Elodie Slawinski and Michelle Reilly
 
