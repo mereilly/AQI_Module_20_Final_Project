@@ -75,9 +75,8 @@ We then visualized the initial results of  features_importance and permutation_i
          - "Permutation importances can be computed either on the training set or on a held-out testing or validation set. Using a held-out set makes it possible to highlight which features contribute the most to the generalization power of the inspected model."
     More on feature importances: https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 
-![Screen Shot 2021-09-29 at 6 56 45 AM](https://us![Screen Shot 2021-09-29 at 6 57 30 AM](https://user-images.githubusercontent.com/82982952/135255673-8813994a-17c9-4895-87c8-362ec7713a0d.png)
-er-images.githubusercontent.com/82982952/135255646-8e7134d1-52bb-48f3-95c3-ba7e9202cffe.png)
-
+![Screen Shot 2021-09-29 at 6 56 45 AM](https://user-images.githubusercontent.com/82982952/135255646-8e7134d1-52bb-48f3-95c3-ba7e9202cffe.png)
+![Screen Shot 2021-09-29 at 6 57 30 AM](https://user-images.githubusercontent.com/82982952/135255673-8813994a-17c9-4895-87c8-362ec7713a0d.png)
 ![Screen Shot 2021-09-29 at 6 57 49 AM](https://user-images.githubusercontent.com/82982952/135255720-cf1f4632-cba2-4695-a185-4a87fedaec9b.png)
 
 
