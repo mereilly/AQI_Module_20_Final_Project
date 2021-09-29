@@ -85,7 +85,7 @@ The presentation is uploaded here in a powerpoint format. We also generated an E
 
 Tableau Story Link: https://public.tableau.com/app/profile/elo.sla/viz/Final_Project_AQI_Story/AQIStory?publish=yes
 
-![Tableau Sample](Images/Screenshot 2021-09-29 081752.png)
+<img width="752" alt="Screenshot 2021-09-29 081752" src="https://user-images.githubusercontent.com/82544686/135267544-1ae18a4a-9386-49bd-8636-e0563a2b3d12.png">
 
 ## Presentation Practices Were Not Recorded. Please Refer to Notes at the Bottom of Each Slide.(September 26 2021 Update for Segment 3)
 Final Presentation date set for 29 September 2021 between 7 - 9 pm EST.
