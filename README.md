@@ -83,7 +83,9 @@ We then visualized the initial results of  features_importance and permutation_i
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. 
 The presentation is uploaded here in a powerpoint format. We also generated an ERD from pgAdmin and uploaded the graphic into the same power point. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
 
-Tableau Story Link: https://public.tableau.com/app/profile/elo.sla/viz/Final_Project_AQI_Story/AQIStory?publish=yes 
+Tableau Story Link: https://public.tableau.com/app/profile/elo.sla/viz/Final_Project_AQI_Story/AQIStory?publish=yes
+
+![Tableau Sample](Resources/Screenshot 2021-09-29 081752.png)
 
 ## Presentation Practices Were Not Recorded. Please Refer to Notes at the Bottom of Each Slide.(September 26 2021 Update for Segment 3)
 Final Presentation date set for 29 September 2021 between 7 - 9 pm EST.
