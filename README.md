@@ -80,8 +80,7 @@ We then visualized the initial results of  features_importance and permutation_i
 ![Screen Shot 2021-09-29 at 6 57 49 AM](https://user-images.githubusercontent.com/82982952/135255720-cf1f4632-cba2-4695-a185-4a87fedaec9b.png)
 
 ### Dashboard:
-We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. 
-The presentation is uploaded here in a powerpoint format. We also generated an ERD from pgAdmin and uploaded the graphic into the same power point. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
+We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. The presentation is uploaded here in a powerpoint format. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
 
 Tableau Story Link: https://public.tableau.com/app/profile/elo.sla/viz/Final_Project_AQI_Story/AQIStory?publish=yes
 
