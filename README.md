@@ -56,18 +56,24 @@ Pandas and Requests will be used to clean the data and perform an exploratory an
 ### Database Storage:
 AWS RDS is the database we intend to use managed through pgAdmin. Although we are also prepared to switch to a different format should colaboration prove to be difficult under this method. We currently have four total tables in our pgAdmin, that start empty with the correct heard names ready to be populated by imported data/a connection. Queries in the OpenWeather_DataBase fi;e and the ML_model file will access information from the database directly into the python script. 
 
-### Machine Learning:
-We will use the RandomForestClassifier from the sklearn ML library to create a supervised learning classifier. We will then use metrics from the sklearn to test the accuracy of of the classifier using test and predicted data samples from the split data base. We plan to visualize the initial results through the seaborn and plotly library. 
 
 #### Description of how data was split into training and testing sets
 Using Skicit-learn to split data of just the features into training and testing sets, and then evaluating the shape of the two to see how the data was split. In the last run, the training data was split with 19920 rows, while the testing data was 6640 rows.
 
-We then applied a scaler to both given our data for pollutants was collected in different ranges and needed to be mmade more comparable to one another.
+We then applied the Standard Scaler to both given our data for pollutants was collected in different ranges and needed to be mmade more comparable to one another.
 
-#### Explanation of model choice, including limitations and benefits
-Our main model choice as noted elsewhere is a RandomForestClassifier,through which we then ran an impact importance evaluator, which results are visable through a plotly graph. We only had 5 values to classify between, and we wanted to take advantage of the bagging technique in the model.
+### Machine Learning:
+After splitting the data and using the StandardScaler, we  used two different type of classifier methods from sklearn's ensemble methods as the primary base of our ML model (see more information on "ensemble methods": https://scikit-learn.org/stable/modules/ensemble.htmlthe).
 
-With larger training and  testing sets, this model could require much more time for training, as it complies various decision trees to determine the class. So while this model is ideal in helping improve accuracy for the classifying to the output of 5 bin options (1-5 AQI values), and reduces overfitting, it is possile to be less efficient. We must also consider, it may be limited in auto-determining the significance of each variable, which is why we ran follow up impact evaluaton.
+First, we used RandomForestClassifier to create a supervised learning classifier that uses averaging methods and should reduce vairence, as it is combining diverse trees. With larger training and  testing sets, this model could require much more time for training, as it complies various decision trees to determine the class. Thus, while this model is ideal in helping improve accuracy for the classifying to the output of 5 bin options (1-5 AQI values), and reduces overfitting, it is possile to be less efficient and may be further limited in auto-determining the significance of each variable (creating a  bias).
+    More on Mathematics behind AdaBooster's :https://towardsdatascience.com/boosting-algorithm-adaboost-b6737a9ee60c
+    More on AdaBoost Model: https://medium.datadriveninvestor.com/understanding-adaboost-and-scikit-learns-algorithm-c8d8af5ace10
+Second, we used AdaBoost which instead is a boosting supervised learning classifier aimed to reduce bias and "adapt" around weight values. It goes through many versions of the data sequentially, deriving a predictions from all of them. To create the final prediction in this case, those predictions run through a "weighted majority vote (or sum)."
+
+We then visualized the initial results of  features_importance and permutation_importance through the matplotlib.
+    More on permutation importance: https://scikit-learn.org/stable/modules/permutation_importance.html
+         - "Permutation importances can be computed either on the training set or on a held-out testing or validation set. Using a held-out set makes it possible to highlight which features contribute the most to the generalization power of the inspected model."
+    More on feature importances: https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 
 ### Dashboard:
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. 
