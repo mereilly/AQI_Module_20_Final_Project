@@ -82,6 +82,7 @@ We then visualized the initial results of  features_importance and permutation_i
 ### Dashboard:
 We incorporated this information into a visualizations made on Tableau which we can export for a great presentation. The presentation is uploaded here in a powerpoint format. We also included screenshots of graphs generated at the end of the ML Model that did the final impact testing after scaling all the features (aka the pollutants). 
 
+Sample of visualization in dashboard: 
 Tableau Story Link: https://public.tableau.com/app/profile/elo.sla/viz/Final_Project_AQI_Story/AQIStory?publish=yes
 
 <img width="752" alt="Screenshot 2021-09-29 081752" src="https://user-images.githubusercontent.com/82544686/135267544-1ae18a4a-9386-49bd-8636-e0563a2b3d12.png">
@@ -91,6 +92,8 @@ Final Presentation date completed on at 29 September 2021 around 8 PM EST.
 
 
 -----
-##Final note
+
+
+## Final note
 
 From a policy standpoint – it’s worth thinking about which pollutant should be addressed  especially in the midst of very public discussions from our govt about how spending should be regulated and what issues should be prioritized. Climate change affects every other issue, and often it is taken for granted that we have access to certain resources (e.g., air to breathe). We hope that at the very least tailoring the pollutant list further will give a sense of priority, while by no means should efforts be exclusive.
